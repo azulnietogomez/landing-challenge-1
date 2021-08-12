@@ -5,6 +5,13 @@ header {
     padding-left: 60px;
 }
 
+body {
+    background:  url(./assets/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+}
+
 header img {
     width: 220px;
 }
