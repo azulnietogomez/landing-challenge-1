@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(./assets/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
