@@ -8,10 +8,16 @@ header {
 body {
     background:  url(./assets/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: hsl(257, 40%, 49%);
 }
 
 header img {
     width: 220px;
 }
+
+main {
+    flex-direction: row;
+    height: auto;
+}
+
