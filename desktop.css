@@ -2,7 +2,7 @@ header {
     width: 100%;
     height: 150px;
 
-    padding-left: 60px;
+    padding: 20px;
 }
 
 body {
@@ -14,10 +14,67 @@ body {
 
 header img {
     width: 220px;
+    margin-left: 40px;
+    margin-top: 25px;
 }
 
 main {
     flex-direction: row;
-    height: auto;
+    height: 78vh;
+    padding: 0 75px 0 75px;
 }
 
+
+
+.mockup-container {
+    width: 60%;
+    height: 600px;
+
+}
+
+.content-container {
+    width: 40%;
+    height: 600px;
+
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+
+.content-container h1 {
+    text-align: left;
+    font-size: 3.6rem;
+    line-height: 6rem;
+}
+
+.content-container p {
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.content-container a {
+    width: 270px;
+    height: 70px;
+
+    font-size: 2.5rem;
+    border-radius: 60px;
+    padding: 22px 20px 20px 20px;
+}
+
+.social-container {
+    justify-content: flex-end;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.social-container div {
+    width: 300px;
+}
+
+.social-container a {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+}

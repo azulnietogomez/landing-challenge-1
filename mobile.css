@@ -46,6 +46,7 @@ main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -158,3 +159,10 @@ main {
     background-position: center;
 }
 /*-- social styles*/
+
+@media ( min-width: 850px) {
+
+    body {
+        background-size: cover;
+    }
+}
