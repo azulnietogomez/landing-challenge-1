@@ -67,3 +67,25 @@ main {
 .icon {
     padding: 0 20px;
 } 
+
+
+.attribution {
+    position: fixed;
+    left: 10px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.341);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-decoration: none;
+}
