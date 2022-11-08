@@ -1,5 +1,4 @@
 /*-- General Styles --*/
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,26 +11,24 @@ html {
 }
 
 body {
+    height: 100vh;
     background: url(./assets/bg-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
-
 }
 
 /*End General Styles*/
-
-
 
 /*-- Header Styles --*/
 
 header {
     width: 100%;
     height: 80px;
-    background: transparent;
     padding: 20px;
+    background: transparent;
 }
 
-header img {
+.header-logo {
     width: 150px;
 }
 
@@ -39,18 +36,15 @@ header img {
 
 main {
     width: 100%;
-    height: 80vh;
-
     margin: 0 auto;
-
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: noswrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.mockup-container {
+.mockup {
     width: 90%;
     height: 250px;
 
@@ -60,7 +54,7 @@ main {
     background-position: center;
 }
 
-.content-container {
+.content {
     width: 90%;
     height: auto;
 
@@ -70,29 +64,31 @@ main {
     align-items: center;
 }
 
-.content-container h1 {
+.content--title {
+    margin-top: 10px;
+
     font-family: sans-serif;
     font-size: 2.8rem;
     line-height: 4rem;
-
-    margin-top: 10px;
     text-align: center;
     color: white;
 }
 
-.content-container p {
+.content--p {
+    margin-top: 20px;
+
     font-family: sans-serif;
     font-size: 1.7rem;
     line-height: 2.5rem;
-    
-    margin-top: 20px;
     text-align: center;
     color: white;
 }
 
-.content-container a {
+.register--btn {
     width: 280px;
     height: 50px;
+    padding: 17px;
+    margin-top: 30px;
 
     font-family: sans-serif;
     font-size: 1.7rem;
@@ -104,60 +100,27 @@ main {
     background-color: white;
     border-radius: 25px;
     
-    padding: 17px;
-    margin-top: 30px;
 }
 /*-- End Main styles -- */
 
 .social-container {
-    width: 100%;
+    width: 90%;
     height: 50px;
-
+    margin: 35px auto 0px auto;
+    
     display: flex;
     flex-direction: row;
-
     align-items: center;
-    justify-content: center;
-}
-
-.social-container div {
-    display: flex;
-    width: 50%;
     justify-content: space-evenly;
-}
-
-.social-container a {
-    width: 40px;
-    height: 40px;
+    list-style: none;
 }
 
 .icon {
-    list-style: none;
-    width: 40px;
-    height: 40px;
+    font-size: 4rem;
+    color: white;
+    text-decoration: none;
 }
 
-
-.facebook {
-    background: url(./assets/icons8-facebook-nuevo.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.twitter {
-    background: url(./assets/icons8-twitter.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.instagram {
-    background: url(./assets/icons8-instagram.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 /*-- social styles*/
 
 @media ( min-width: 850px) {

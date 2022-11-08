@@ -8,35 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Styles-->
     <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="./desktop.css" media="(min-width: 1080px">
-
     <title>Landing Page Challenge</title>
 </head>
 <body>
     <header>
-        <img src="./assets/logo.svg" alt="Huddle Logo">
+        <img class="header-logo" src="./assets/logo.svg" alt="Huddle Logo">
     </header>
 <!--Principal content-->
     <main>
-        <section class="mockup-container"></section>
+        <div class="mockup"></div>
 
-        <section class="content-container">
-            <h1>Build The Community <br> Your Fans Will Love</h1>
-            <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-            <a href="#" class="register">Register</a>
-        </section>
-    </main>
-
-<!--Social media links-->
-    <section class="social-container">
-        <div>
-            <a class="icon facebook" href="#"></a>
-            <a class="icon twitter" href="#"> </a>
-            <a class="icon instagram" href="#"></a>
+        <div class="content">
+            <h1 class="content--title">Build The Community <br> Your Fans Will Love</h1>
+            <p class="content--p">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+            <a href="#" class="register--btn">Register</a>
         </div>
-    </section>    
-
+    </main>
+            <!--Social media links-->
+            <ul class="social-container">
+                <li>
+                    <a class="icon fa-brands fa-square-facebook" href="#"></a>
+                </li>
+                <li>
+                    <a class="icon fa-brands fa-square-twitter" href="#"> </a>
+                </li>
+                <li>
+                    <a class="icon fa-brands fa-square-instagram" href="#"></a>
+                </li>
+            </ul>
 </body>
 </html>
